@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.amarelo {
+  
+  background-color: #FFE766;
+  width: 1900px;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  zoom: 75%;
+}
+#botao-volte{
+  margin-bottom: 1090px;
+  height: 50px;
+  text-size-adjust: 150px!important;
+  color: #483698;
+  padding-left: 0px;
+}
+.conteudo {
+ padding: 20px;
+ scrollbar-width: 0;
+  align-items: center;
+  width: 1000px;
+  background-color: white;
+  height:  780px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-image: url(desktop-pagina-1.png);
+  background-repeat: no-repeat;
+  background-position: 480px;
+  background-size: 530px;
+  zoom: 105%;
+
+  
+  
+}.conteudo .profissa {
+  padding-left: 40px;
+    color: #483698;
+    font-size: 60px;
+   font-family:  'Open Sans'  ;
+   margin: 20px;
+  
+  }
+   .detalhes {
+    padding-left: 40px;
+    margin: 20px;
+  
+  }
+  #botao-volte{
+    margin-bottom: 800px;
+    height: 50px;
+    text-size-adjust: 150px!important;
+    color: #483698;
+  }
+  
+   .botao{
+  
+    float: left;
+   display: flex;
+   cursor: none;
+   padding: 5px;
+   background-color: #483698;
+    border-color: #483698;
+    color: white;
+    width: 40px!important;
+    height: 40px;
+    margin-left: 60px;
+  
+  
+  }
+  #botao-volte2{
+    display: none;
+  }
+  .is {
+    
+    color: blue;
+    border: 0.5px solid #483698;
+    height: 40px;
+    width: 200px;
+    display: flex;
+  
+  border-radius: 5px;
+    
+  }
+
+ 
+ .frase1 {
+ margin: 20px;
+ padding-left: 40px;
+ }
+ 
+ 
+ 
+ .frase2 {
+ padding-left: 59px;
+ 
+ }
+ .especialidade {
+  border: 0.5px solid #483698!important;
+  border-radius: 5px;
+ }
+ .input-group-prepend{
+   padding-left: 56px!important ;
+   background-color: #F9F9F9!important;
+ }
+ .input-group-text{
+   background-color: #F9F9F9!important;
+   border: 1px solid #ced4da!important;
+   padding-inline-start: 30px!important;
+ }
+ .form-control {
+   background-color: #ffffff!important;
+ }
+ .form-check-input{
+   background-color: #ffffff!important;
+   border: 1px solid #ced4da!important;
+   padding-inline-start: 30px!important;
+   box-shadow: 9px 9px 10px -1px rgba(120,120,120,0.75)!important;
+ -webkit-box-shadow: 9px 9px 10px -1px rgba(120,120,120,0.75)!important;
+ -moz-box-shadow: 9px 9px 10px -1px rgba(120,120,120,0.75)!important;
+ }
+ .input-group>.form-control:not(:first-child){
+   box-shadow: 3px 3px 3px 3px rgba(120,120,120,0.75)!important;
+   -webkit-box-shadow: 3px 3px 3px -1px rgba(120,120,120,0.75)!important;
+   -moz-box-shadow: 3px 3px 3px -1px rgba(120,120,120,0.75)!important;
+ }
+ .input-group-text{
+   box-shadow: 3px 3px 3px 3px rgba(120,120,120,0.75)!important;
+   -webkit-box-shadow: 3px 3px 3px -1px rgba(120,120,120,0.75)!important;
+   -moz-box-shadow: 3px 3px 3px -1px rgba(120,120,120,0.75)!important;
+ 
+ }
+ .form-control:not(:first-child){
+ -webkit-text-fill-color : black;
+ 
+ }
+ #botao2 {
+   
+     width: 200px!important;
+     
+      background-color: #483698;
+      height: 20px;
+     cursor: default;
+    
+ }
+ #letraa{
+   padding-left: 130px!important ;
+  color: blue;
+  position: relative ;
+  background-size: 50%;
+  float: left;
+ 
+ 
+  
+ }
+ #botao-comfirma {
+   width: 360px;
+ text-align: center;
+    background-color: #483698;
+  border-radius: 20px;
+ height: 40px;
+ cursor: pointer;
+ border: none;
+ color: azure;
+ align-content: center;
+ text-transform: uppercase;
+ text-size-adjust: 30px;
+ margin-left: 40px;
+ padding-top: 10px;
+ 
+ 
+  }
+  @media (max-width: 700px){
+
+
+    .amarelo {
+   margin: 0px;
+ 
+ padding: 0px;
+   
+    
+    width: 430px;
+    height: 900px;
+  zoom: 50%;
+   
+  }
+  .conteudo {
+   background-color: white;
+    width: 1000px!important;
+    height: 850px;
+    border-radius: 60px;
+    background-image: none;
+    margin-top: 95px;
+ 
+    box-shadow: none;
+   
+  }
+  .especialidade  {
+    border: 0.5px solid #483698!important;
+    border-radius: 8px!important;
+    margin-left: 0px;
+    width: 380px!important;
+   }
+   .conteudo .profissa {
+    padding-left: 0px;
+      color: #483698;
+      font-size: 40px;
+      font-family: 'Comfortaa', cursive Bold;
+     margin: 10px;
+     padding-top: 30px;
+  }  
+  .detalhes {
+    padding-left: 0px;
+    margin: 10px;
+    padding-top: 10px;
+  
+  }
+  .frase1 , .frase2  
+  {
+   margin-top: 40px;
+   margin-left: 0px;
+   padding-left: 0px;
+  }
+  .especialidade2 .input-group-text{
+    border: 0.5px solid #483698!important;
+    border-radius: 8px!important;
+    margin-left: 0px;
+    width: 280px!important;
+   }
+   .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto , .estado {
+    padding: -15px!important; 
+       padding : -15px!important;
+   max-width: 200%!important;
+   margin-left: -0px!important;
+  
+  }
+  .frase3{
+    padding-left: 100px;
+  }
+  #botao2 {
+    
+    width: 220px!important;
+    margin-right: -200px;
+     background-color: #483698;
+     height: 20px;
+    cursor: default;
+   
+  }
+
+  .is {
+    
+   
+    height: 40px;
+    width: 280px;
+   margin-left: 2px;
+    margin-right: -10px;
+
+  border-radius: 5px;
+    
+  }
+  .botao {
+    margin-left: -2px;
+    padding-left: 10px;
+  }
+  .input-group {
+    margin-left: -60px;
+    padding-bottom: 20px;
+  }
+  #botao-comfirma{
+    margin-left: -10px;
+  }
+  #botao-volte2{
+   background-color: #FFE766;
+   width: 430px;
+   padding-left: 30px;
+ 
+  }
+
+}
+  
+  
