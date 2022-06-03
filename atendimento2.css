@@ -1,0 +1,393 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.amarelo {
+  
+  background-color: #FFE766;
+  width: 100%;
+  height: 130vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conteudo {
+  
+
+    scrollbar-width: 0;
+     align-items: center;
+     width: 60%;
+     background-color: white;
+     height:  110vh;
+     border-radius: 15px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     background-image: url(desktop-pagina-2.png);
+     background-repeat: no-repeat;
+     background-position: 480px;
+     background-size: 350px;
+
+
+
+}.conteudo .profissa {
+  padding-left: 60px;
+    color: #483698;
+    font-size: 50px;
+   font-family:  'Open Sans'  ;
+   padding-top: 40px;
+
+  
+  }
+   .detalhes {
+    padding-left: 40px;
+    margin: 20px;
+  
+  }
+  #volte{
+  
+    height: 50px;
+    margin-bottom: 800px!important;
+    color: #483698;
+  
+
+  
+  }
+  .frase5{
+    padding-left: 60px;
+  }
+  
+   .botao{
+  
+    float: left;
+   display: flex;
+   cursor: none;
+   padding: 5px;
+   background-color: #483698;
+    border-color: #483698;
+    color: white;
+    width: 40px!important;
+    height: 40px;
+    margin-left: 60px;
+  
+  
+  }
+  #volte{
+    margin-bottom: 1300px;
+ margin-right: -10px;
+
+  }
+  .is {
+    
+    color: blue;
+    border: 0.5px solid #483698;
+    height: 40px;
+    width: 200px;
+    display: flex;
+  
+  border-radius: 5px;
+    
+  }
+
+ 
+ .frase1 {
+ margin: 20px;
+ padding-left: 40px;
+ }
+ 
+ 
+ 
+ .frase2 {
+ padding-left: 59px;
+ 
+ }
+ .especialidade {
+  border: 0.5px solid #483698!important;
+  border-radius: 5px;
+ }
+ .input-group-prepend{
+   padding-left: 56px!important ;
+   background-color: #F9F9F9!important;
+ }
+ .input-group-text{
+   background-color: #F9F9F9!important;
+   border: 1px solid #ced4da!important;
+   padding-inline-start: 30px!important;
+ }
+ .form-control {
+   background-color: #ffffff!important;
+ }
+ .form-check-input{
+   background-color: #ffffff!important;
+   border: 1px solid #ced4da!important;
+   padding-inline-start: 30px!important;
+   box-shadow: 9px 9px 10px -1px rgba(120,120,120,0.75)!important;
+ -webkit-box-shadow: 9px 9px 10px -1px rgba(120,120,120,0.75)!important;
+ -moz-box-shadow: 9px 9px 10px -1px rgba(120,120,120,0.75)!important;
+ }
+ .input-group>.form-control:not(:first-child){
+   box-shadow: 3px 3px 3px 3px rgba(120,120,120,0.75)!important;
+   -webkit-box-shadow: 3px 3px 3px -1px rgba(120,120,120,0.75)!important;
+   -moz-box-shadow: 3px 3px 3px -1px rgba(120,120,120,0.75)!important;
+ }
+ .input-group-text{
+   box-shadow: 3px 3px 3px 3px rgba(120,120,120,0.75)!important;
+   -webkit-box-shadow: 3px 3px 3px -1px rgba(120,120,120,0.75)!important;
+   -moz-box-shadow: 3px 3px 3px -1px rgba(120,120,120,0.75)!important;
+ 
+ }
+ .form-control:not(:first-child){
+ -webkit-text-fill-color : black;
+ 
+ }
+ #botao2 {
+   
+     width: 200px!important;
+     
+      background-color: #483698;
+      height: 20px;
+     cursor: default;
+    
+ }
+ #letraa{
+   padding-left: 130px!important ;
+  color: blue;
+  
+  background-size: 50%;
+  float: left;
+ 
+ 
+  
+ }
+ #botao-comfirma {
+   width: 360px;
+ text-align: center;
+    background-color: #483698;
+  border-radius: 20px;
+ height: 40px;
+ cursor: pointer;
+ border: none;
+ color: azure;
+ align-content: center;
+ text-transform: uppercase;
+ text-size-adjust: 30px;
+ margin-left: 40px;
+ padding-top: 10px;
+ margin-top: 30px;
+ 
+ 
+  }
+
+
+
+    @media (max-width: 700px){
+
+      
+    
+
+      .amarelo {
+    
+     width: 95%;
+     height: 120vh;
+     padding-top: 200px;
+    zoom: 60%;
+     
+    }
+    .conteudo {
+    
+      width: 80%;
+      height: 80vh;
+      border-radius: 100px!important;
+     box-shadow: none!important;
+     padding-bottom: 750px!important;
+    
+     
+    }
+    .conteudo .profissa {
+        
+      margin-left: -30px!important;
+       display: flex;
+       color: #483698;
+       font-size: 45px;
+       font-family: 'Comfortaa', cursive, Bold;
+       margin-top: 80px;
+       
+    }  
+    .detalhes {
+      
+      margin-left: 0px!important;
+      font-size: 25px ;
+      padding-top: 10px;
+   
+    }
+    
+  
+    .frase1 
+
+    {
+     margin-left: -0px!important;
+     margin-top: 30px;
+    
+   }
+   .especialidade {
+     border: 0.5px solid #483698!important;
+     border-radius: 8px!important;
+     
+    
+     width: 500px!important;
+    }
+    .especialidade2
+    {
+     border: 0.5px solid #483698!important;
+     border-radius: 8px!important;
+    
+     width: 380px!important;
+    }
+    .botao {
+      margin-left: 40px;
+    }
+    .frase2 {
+     margin-left: -20px;
+     
+    }
+    .frase5{
+      margin-left: 40px;
+      display: block;
+      float: left;
+      position: static;
+      margin-top: 10px;
+    }
+    #botao-comfirma {
+      width: 500px;
+      margin-bottom: 60px!important;
+      margin-top: 20px;
+    }
+    #botao2 {
+  
+      width: 230px!important;
+     margin-left:45px!important ;
+        background-color: #483698;
+        height: 20px;
+       cursor: default;
+       margin-top: 10px!important;
+   
+      
+      
+     }#letraa{
+     float: left!important;
+  margin-right: -80px!important;
+  
+
+   
+     }  
+     #volte {
+       position: inherit;
+     }
+    }
+
+    
+    
+    @media (max-width: 1029px){
+
+      #volte{
+        margin-bottom: 1100px;
+     margin-right: -10px;
+    
+      }
+ 
+      .amarelo {
+    
+     width: 95%;
+     height: 100vh;
+     padding-top: 200px;
+    zoom: 50%;
+     
+    }
+    .conteudo {
+    background-image: none!important;
+      width: 100%;
+      height: 104vh;
+      border-radius: 90px;
+     box-shadow: none!important;
+    
+     
+    }
+    .conteudo .profissa {
+        
+      margin-left: -30px!important;
+       display: flex;
+       color: #483698;
+       font-size: 75px;
+       font-family: 'Comfortaa', cursive, Bold;
+       margin-top: 80px;
+       
+    }  
+    .detalhes {
+      
+      margin-left: 0px!important;
+      font-size: 45px ;
+      padding-top: 10px;
+   
+    }
+    
+  
+    .frase1 
+
+    {
+     margin-left: -0px!important;
+     margin-top: 30px;
+     font-size: 30px;
+    
+   }
+   .especialidade {
+     border: 0.5px solid #483698!important;
+     border-radius: 8px!important;
+     
+    
+     width: 500px!important;
+    }
+    .especialidade2
+    {
+     border: 0.5px solid #483698!important;
+     border-radius: 8px!important;
+    
+     width: 380px!important;
+    }
+    .botao {
+      margin-left: 40px;
+    }
+    .frase2 {
+     margin-left: -20px;
+     
+    }
+    .frase5{
+      margin-left: 40px;
+      display: block;
+      float: left;
+      position: static;
+      margin-top: 10px;
+    }
+    #botao-comfirma {
+      width: 500px;
+      margin-bottom: 40px;
+      margin-top: 20px;
+    }
+    #botao2 {
+  
+      width: 230px!important;
+     margin-left:45px!important ;
+        background-color: #483698;
+        height: 20px;
+       cursor: default;
+       margin-top: 10px!important;
+   
+      
+      
+     }#letraa{
+     float: left!important;
+  margin-right: -80px!important;
+  
+
+   
+     }  
+    }

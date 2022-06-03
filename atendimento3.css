@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.amarelo {
+  
+  background-color: #FFE766;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conteudo {
+  
+
+    scrollbar-width: 0;
+     align-items: center;
+     width: 60%;
+     background-color: white;
+     height:  90%;
+     border-radius: 15px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     background-image: url(desktop-pagina-1.png);
+     background-repeat: no-repeat;
+     background-position: 480px;
+     background-size: 300px;
+ 
+   
+
+
+}
+
+.conteudo .profissa {
+    
+   margin-left: 70px!important;
+    display: flex;
+    color: #483698;
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+   margin: 20px;
+}  
+.detalhes {
+  
+  margin-left: 70px!important;
+
+}
+ .frase1 , .frase2 
+
+ {
+  margin-left: 70px!important;
+ 
+}
+.especialidade {
+  border: 0.5px solid #483698!important;
+  border-radius: 8px!important;
+ 
+  width: 330px!important;
+ }
+ .especialidade2
+ {
+  border: 0.5px solid #483698!important;
+  border-radius: 8px!important;
+ 
+  width: 250px!important;
+ }
+
+ .estado{
+  border: 0.5px solid #483698!important;
+ 
+  border-radius: 8px!important;
+  float: left;
+  width: 160px!important;
+
+
+ 
+ 
+ }
+ .cidade{
+  border: 0.5px solid #483698!important;
+   margin-right: 35px!important;
+  border-radius: 8px!important;
+  display: flex;
+  width: 160px!important;
+ 
+
+
+
+ }
+ 
+ 
+ 
+ .form-control:disabled, .form-control[readonly] {
+  background-color: white!important;
+  opacity: 1;
+}
+
+ .frase3{
+padding-left: 70px!important;
+padding-top:10px ;
+
+
+
+
+ }
+ .frase4{
+  margin-left: 100px!important;
+  padding-top:10px ;
+  display: block;
+
+ }
+ .botao{
+
+  float: left;
+ display: flex;
+ cursor: none;
+ padding: 5px;
+ background-color: #483698;
+  border-color: #483698;
+  color: white;
+  width: 40px!important;
+  height: 40px;
+  margin-left: 60px;
+
+
+}
+
+#botao2 {
+  
+ width: 120px!important;
+margin-left:70px!important ;
+   background-color: #483698;
+   height: 20px;
+  cursor: default;
+ 
+ 
+}
+#letraa{
+padding-left: 100px!important ;
+
+color: blue;
+position: relative!important;
+
+float: right!important;
+
+
+
+}
+#botao-comfirma {
+  margin-left: 70px!important;
+text-align: center;
+ background-color: #483698;
+border-radius: 20px;
+height: 40px;
+cursor: pointer;
+border: none;
+color: azure;
+align-content: center;
+text-transform: uppercase;
+margin-top: 20px!important;
+width: 330px!important;
+padding-top: 5px;
+
+
+
+
+}
+
+@media (max-width: 700px){
+
+ 
+  .amarelo {
+
+ width: 95%;
+ height: 100vh;
+ padding-top: 200px;
+zoom: 60%;
+ 
+}
+.conteudo {
+background-image: none!important;
+  width: 100%;
+  height: 99vh;
+  border-radius: 90px;
+ box-shadow: none!important;
+
+ 
+}
+.conteudo .profissa {
+    
+  margin-left: 35px!important;
+   display: flex;
+   color: #483698;
+   font-size: 45px;
+   font-family: 'Comfortaa', cursive, Bold;
+   margin-top: 100px;
+   
+}  
+.detalhes {
+  
+  margin-left: 35px!important;
+  font-size: 25px ;
+  padding-top: 30px;
+
+}
+.frase1 , .frase2 
+
+ {
+  margin-left: 35px!important;
+  margin-top: 40px;
+ 
+}
+.especialidade {
+  border: 0.5px solid #483698!important;
+  border-radius: 8px!important;
+ margin-top: -60px!important;
+  margin-left: 35px!important;
+  width: 500px!important;
+ }
+ .especialidade2
+ {
+  border: 0.5px solid #483698!important;
+  border-radius: 8px!important;
+ 
+  width: 380px!important;
+ }
+
+ .estado{
+  border: 0.5px solid #483698!important;
+  
+  border-radius: 8px!important;
+  float: left;
+  width: 220px!important;
+
+
+ 
+ 
+ }
+ .frase3{
+  padding-left: 35px!important;
+  padding-top:10px ;
+  
+  
+  
+  
+   }
+   .cidade{
+    border: 0.5px solid #483698!important;
+     margin-right: 235px!important;
+    border-radius: 8px!important;
+    display: flex;
+    width: 220px!important;
+   
+  
+  
+  
+   }
+   .frase4{
+    margin-left: 200px!important;
+    padding-top:10px ;
+    display: block;
+  
+   }
+   #botao2 {
+  
+    width: 120px!important;
+   margin-left:35px!important ;
+      background-color: #483698;
+      height: 20px;
+     cursor: default;
+    
+    
+   }#letraa{
+    padding-left: 170px!important ;
+   }    
+   #botao-comfirma {
+   width: 500px!important;
+    margin-left:35px!important ;
+    margin-top: 30px!important;
+   }
+}
